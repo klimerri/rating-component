@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(216, 12%, 8%)
+    background-color: hsl(216, 12%, 8%);
 }
 
 h1 {
@@ -117,8 +117,48 @@ p {
 }
 
 .attribution {
-    margin-top: 10%;
+    position: fixed;
+    bottom: 10px;
     width: 100%;
     text-align: center;
+    color: hsl(217, 12%, 63%);
+}
+
+a {
     color: white;
 }
+
+a:hover {
+    color: hsl(25, 97%, 53%);
+}
+
+@media(max-width: 450px) {
+    .container {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .icon_star {
+        margin-bottom: 5px;
+    }
+
+    .button_rating {
+        font-size: 12px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .button_submit{
+        margin-top: 15px;
+        font-size: 11px;
+        
+    }
+}
+
