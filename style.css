@@ -85,7 +85,7 @@ p {
     border: none;
     border-radius: 7% / 50%;
     padding: 10px;
-    transition: background-color 0.3s linear;
+    transition: background-color 0.2s linear;
     cursor: pointer;
 }
 
@@ -126,6 +126,7 @@ p {
 
 a {
     color: white;
+    transition: color 0.1s linear;
 }
 
 a:hover {

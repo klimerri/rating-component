@@ -3,6 +3,7 @@ const ratingContainer = document.querySelector('.rating_container');
 const thankYouContainer = document.querySelector('.thank-you_container');
 const buttonRating = document.querySelectorAll('.button_rating');
 const thankYouSpan = document.querySelector('.thank-you_span')
+
 let numberRating;
 
 buttonRating.forEach(item => {
@@ -16,11 +17,9 @@ buttonRating.forEach(item => {
         
         item.classList.add('button_active');
         numberRating = item.textContent;
-        thankYouSpan.replaceWith(numberRating); 
+        thankYouSpan.textContent = numberRating; 
     })
 })
-
-console.log(numberRating);
 
 
 buttonSubmit.addEventListener('click', () => {
